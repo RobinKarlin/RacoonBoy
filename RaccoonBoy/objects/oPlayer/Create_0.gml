@@ -1,4 +1,4 @@
-window_set_fullscreen(true)
+//window_set_fullscreen(true)
 
 WalkSpeed = 0.3
 NormalSpeed = 3
