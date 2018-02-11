@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description PlayerVariables here
 // You can write your code in this editor
 
 //Gamepad stuffs
@@ -11,8 +11,8 @@ hsp = 0;
 vsp = 0;
 
 //Deceleration
-decelx = 0;
-decely = 0;
+decelx = 1;
+decely = 1;
 
 //Gravity
 grv = 0;
