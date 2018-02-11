@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "caf44448-e148-4d29-89ce-3cbbc4d67ead",
+            "Value": {
+                "id": "c0b27a65-e83b-4de4-9d5a-c94aa3ca0026",
+                "resourcePath": "rooms\\testrum\\testrum.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "cc92a94f-3483-48db-b986-3751d92ba9fb",
             "Value": {
                 "id": "00479c61-007d-4046-ac13-8eae0ca23f82",
