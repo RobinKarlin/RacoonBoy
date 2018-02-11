@@ -327,6 +327,14 @@
             }
         },
         {
+            "Key": "eb3527c4-12cf-4c98-8152-9531ce2d5cca",
+            "Value": {
+                "id": "d733d5f4-a3dc-47ef-a3d8-f57034216f9c",
+                "resourcePath": "objects\\oFps\\oFps.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "009758b1-6435-4d1c-9b59-170f68e3aaed",
