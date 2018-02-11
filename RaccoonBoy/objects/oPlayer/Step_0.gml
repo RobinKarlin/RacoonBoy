@@ -19,15 +19,13 @@ key_one = keyboard_check_pressed(vk_space) || gamepad_button_check_pressed(0, gp
 
 
 
-
 //Restart room
 if keyboard_check_pressed(ord("R"))
 {
 	room_restart();
 }
-//Reset movement variables
-decelx = max(1, decelx)
-decely = max(1,decely)
+
+
 
 //Calculate movement
 var movex = key_right - key_left;
@@ -37,12 +35,46 @@ vsp = movey * walksp;
 x += hsp;
 y += vsp;
 
-//Movement deceleration
-if movex = 0
+
+//Movement deceleration x
+if movex = 0 && movex != old_movex
 {
-	
+	decelx -= 0.1;
+	xdir = old_movex
 }
 
+old_movex = movex;
+
+if decelx < 1
+{
+	x += walksp * xdir * decelx;
+	decelx -= 0.09;
+}
+
+if decelx <= 0
+		{
+		decelx = 1;
+		}
+
+//Movement deceleration y
+if movey = 0 && movey != old_movey
+{
+	decely -= 0.1;
+	ydir = old_movey
+}
+
+old_movey = movey;
+
+if decely < 1
+{
+	y += walksp * ydir * decely;
+	decely -= 0.09;
+}
+
+if decely <= 0
+		{
+		decely = 1;
+		}
 
 /*
 //Horizontal collision
