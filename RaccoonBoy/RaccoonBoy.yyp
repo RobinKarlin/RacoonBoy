@@ -375,11 +375,35 @@
             }
         },
         {
+            "Key": "a36f7233-53d6-490d-bea0-07a96f46ea4e",
+            "Value": {
+                "id": "6dee1240-8fff-48e5-a90d-da845e47a154",
+                "resourcePath": "views\\a36f7233-53d6-490d-bea0-07a96f46ea4e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "71ab65c2-6da3-42cc-9b4e-1e43367347c2",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "af8e00bf-563f-424c-8b07-f715fa0e0078",
+            "Value": {
+                "id": "ea674b66-ecb3-4372-b7d7-38e2f3db7443",
+                "resourcePath": "objects\\oCamera\\oCamera.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b0248abe-e295-4232-b079-21077e3274c7",
+            "Value": {
+                "id": "1fb6f77c-ba51-40d7-9ce0-1c8d8e1bf41a",
+                "resourcePath": "objects\\oCameraStatic\\oCameraStatic.yy",
+                "resourceType": "GMObject"
             }
         },
         {
