@@ -1,6 +1,9 @@
 /// @description PlayerVariables here
 // You can write your code in this editor
 
+//Depth -20 makes player end up on top of all other sprites
+depth = -20
+
 //Gamepad stuffs
 gamepad_set_axis_deadzone(0, 0.25);
 

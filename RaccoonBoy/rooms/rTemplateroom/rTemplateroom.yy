@@ -1,6 +1,6 @@
 
 {
-    "name": "Templateroom",
+    "name": "rTemplateroom",
     "id": "4e669110-bd89-4bd4-a648-b7fe6c17cff2",
     "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
