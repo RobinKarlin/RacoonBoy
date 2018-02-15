@@ -7,3 +7,9 @@ old_key_left = key_left;
 old_key_right = key_right;
 old_key_up = key_up;
 old_key_down = key_down;
+
+
+
+//Final movement
+x = x + hsp;
+y = y + vsp;

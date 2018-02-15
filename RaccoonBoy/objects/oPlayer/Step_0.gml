@@ -32,12 +32,11 @@ var movex = key_right - key_left;
 var movey = key_down - key_up;
 hsp = movex * walksp;
 vsp = movey * walksp;
-x += hsp;
-y += vsp;
+
 
 
 //Movement deceleration x
-if movex = 0 && movex != old_movex
+if movex = 0 && movex != old_movex && !place_meeting(x + old_movex,y,oCollisionBlock)
 {
 	decelx -= 0.1;
 	xdir = old_movex
@@ -57,11 +56,13 @@ if decelx <= 0
 		}
 
 //Movement deceleration y
-if movey = 0 && movey != old_movey
+
+if movey = 0 && movey != old_movey && !place_meeting(x,y + old_movey,oCollisionBlock)
 {
 	decely -= 0.1;
 	ydir = old_movey
 }
+
 
 old_movey = movey;
 
@@ -76,33 +77,32 @@ if decely <= 0
 		decely = 1;
 		}
 
-/*
-//Horizontal collision
-if (place_meeting(x+hsp,y,oWallParent))
+
+//Collisiontest x
+if (place_meeting(x+hsp,y,oCollisionBlock))
 {
-	while (!place_meeting(x+sign(hsp),y,oWallParent))
+	while (!place_meeting(x+sign(hsp),y,oCollisionBlock))
 	{
 			x = x+sign(hsp);
 	}
 	hsp = 0;
 }	
-x = x + hsp;
 
-//Vertical collision
-if (place_meeting(x,y+vsp,oWallParent))
+//Vertical collisiontest
+if (place_meeting(x,y+vsp,oCollisionBlock))
 {
-	while (!place_meeting(x,y+sign(vsp),oWallParent))
+	while (!place_meeting(x,y+sign(vsp),oCollisionBlock))
 	{
 			y = y+sign(vsp);
 	}
 	vsp = 0;	
 }	
-y = y + vsp;
-*/
+
 
 //Call Destroy event
 if hp <= 0
 {
 	instance_destroy();
 }
+
 
