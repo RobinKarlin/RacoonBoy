@@ -26,7 +26,6 @@ if keyboard_check_pressed(ord("R"))
 }
 
 
-
 //Calculate movement
 var movex = key_right - key_left;
 var movey = key_down - key_up;
@@ -77,27 +76,11 @@ if decely <= 0
 		decely = 1;
 		}
 
-
-//Collisiontest x
-if (place_meeting(x+hsp,y,oCollisionBlock))
+//Collisions
+if (place_meeting(x+hsp,y,oCollisionBlock)) || (place_meeting(x,y+vsp,oCollisionBlock))
 {
-	while (!place_meeting(x+sign(hsp),y,oCollisionBlock))
-	{
-			x = x+sign(hsp);
-	}
-	hsp = 0;
-}	
-
-//Vertical collisiontest
-if (place_meeting(x,y+vsp,oCollisionBlock))
-{
-	while (!place_meeting(x,y+sign(vsp),oCollisionBlock))
-	{
-			y = y+sign(vsp);
-	}
-	vsp = 0;	
-}	
-
+script_execute(PlayerCollision,0);
+}
 
 //Call Destroy event
 if hp <= 0
