@@ -1,14 +1,18 @@
-/// @description Insert description here
+/// @description Storing variables & Final movement
 // You can write your code in this editor
 
 
-//Storing old variables not used atm
-old_key_left = key_left;
-old_key_right = key_right;
-old_key_up = key_up;
-old_key_down = key_down;
-
-
+//Storing variables
+if positionsavestate = 0 && !place_meeting(x,y,oCollisionBlock)
+{
+	positionsavex = x;
+	positionsavey = y;
+	positionsavestate = 60;
+}
+else
+{
+	positionsavestate --;
+}
 
 //Final movement
 x = x + hsp;

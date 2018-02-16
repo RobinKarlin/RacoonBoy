@@ -19,10 +19,11 @@ key_one = keyboard_check_pressed(vk_space) || gamepad_button_check_pressed(0, gp
 
 
 
-//Restart room
+//Restart position
 if keyboard_check_pressed(ord("R"))
 {
-	room_restart();
+	x = positionsavex;
+	y = positionsavey;
 }
 
 

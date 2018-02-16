@@ -11,10 +11,9 @@ gamepad_set_axis_deadzone(0, 0.25);
 old_movex = 0;
 old_movey = 0;
 
-old_key_left = 0;
-old_key_right = 0;
-old_key_up = 0;
-old_key_down = 0;
+positionsavestate = 1;
+positionsavex = x;
+positionsavey = y;
 
 //Horizontal speed
 hsp = 0;
