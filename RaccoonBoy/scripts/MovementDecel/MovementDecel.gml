@@ -5,7 +5,6 @@ if movex = 0 && movex != old_movex && !place_meeting(x + old_movex * walksp,y,oC
 	xdir = old_movex;
 }
 
-old_movex = movex;
 
 if decelx < decelmax
 {
@@ -30,8 +29,6 @@ if movey = 0 && movey != old_movey && !place_meeting(x,y + old_movey * walksp,oC
 	ydir = old_movey;
 }
 
-
-old_movey = movey;
 
 if decely < decelmax
 {

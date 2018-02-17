@@ -202,7 +202,7 @@
             "Key": "44976118-7359-46fa-845a-925339a7fc01",
             "Value": {
                 "id": "e7aa6c6f-f2d7-41d4-9823-2b44c040d327",
-                "resourcePath": "sprites\\sPlayer\\sPlayer.yy",
+                "resourcePath": "sprites\\sPlayerAcc\\sPlayerAcc.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -235,6 +235,14 @@
             "Value": {
                 "id": "357d7052-b55e-434d-b128-c297823fa17c",
                 "resourcePath": "sprites\\sRoomSwitch\\sRoomSwitch.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5ba8a691-2eff-4f56-a99d-679b03436eeb",
+            "Value": {
+                "id": "ed0f427a-6af9-4646-ad38-61d0e66ce2d3",
+                "resourcePath": "sprites\\sPlayer\\sPlayer.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -292,6 +300,14 @@
                 "id": "6a269214-ae57-43b5-864d-869b3a786f36",
                 "resourcePath": "objects\\oMainMenu\\oMainMenu.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "74faa4ca-93c9-495a-b648-0c814090625a",
+            "Value": {
+                "id": "a14cecf5-6c61-4f02-a445-06a008821ab0",
+                "resourcePath": "scripts\\MovementAccel\\MovementAccel.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -619,7 +635,8 @@
         "64d760d9-d947-4a51-8938-22960e60d927",
         "c0227206-10ad-4b0a-aaca-6537214b7892",
         "e702c279-2953-47fa-a60f-383fc7f58980",
-        "f1e54d28-855c-452e-ad32-a415d2f7a894"
+        "f1e54d28-855c-452e-ad32-a415d2f7a894",
+        "74faa4ca-93c9-495a-b648-0c814090625a"
     ],
     "tutorial": ""
 }

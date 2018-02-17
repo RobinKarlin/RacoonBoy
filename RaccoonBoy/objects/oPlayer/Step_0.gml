@@ -35,10 +35,11 @@ vsp = movey * walksp;
 
 
 //MovementDeceleration
-if movementstart = true
-{
-	script_execute(MovementDecel,0);
-}
+script_execute(MovementDecel,0);
+
+//Movementacceleration
+script_execute(MovementAccel,0);
+
 
 //Collisions
 if (place_meeting(x+hsp,y,oCollisionBlock)) || (place_meeting(x,y+vsp,oCollisionBlock))

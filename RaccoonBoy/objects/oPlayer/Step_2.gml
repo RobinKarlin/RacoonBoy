@@ -14,9 +14,13 @@ else
 	positionsavestate --;
 }
 
+//Storing variables old movement
+old_movex = movex;
+old_movey = movey;
+
 //Final movement
 x = x + hsp;
 y = y + vsp;
 
 //Turns on movementmechanics in accel/decel 
-movementstart = true;
+//movementstart = true;
