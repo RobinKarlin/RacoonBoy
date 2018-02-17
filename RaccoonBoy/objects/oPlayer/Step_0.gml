@@ -15,8 +15,7 @@ key_select_up = keyboard_check(ord(vk_up)) || gamepad_button_check(0, gp_padu);
 key_select_down = keyboard_check(ord(vk_down)) || gamepad_button_check(0, gp_padd);
 
 //Buttons
-key_one = keyboard_check_pressed(vk_space) || gamepad_button_check_pressed(0, gp_face1);
-
+// keyboard_check_pressed(vk_space) || gamepad_button_check_pressed(0, gp_face1);
 
 
 //Restart position
