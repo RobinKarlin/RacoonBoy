@@ -17,3 +17,6 @@ else
 //Final movement
 x = x + hsp;
 y = y + vsp;
+
+//Turns on movementmechanics in accel/decel 
+movementstart = true;

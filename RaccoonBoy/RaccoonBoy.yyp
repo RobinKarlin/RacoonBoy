@@ -583,6 +583,14 @@
             }
         },
         {
+            "Key": "f1e54d28-855c-452e-ad32-a415d2f7a894",
+            "Value": {
+                "id": "7e7f88d9-0d7d-47af-a178-b10b5c87dd78",
+                "resourcePath": "scripts\\MovementDecel\\MovementDecel.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "009758b1-6435-4d1c-9b59-170f68e3aaed",
@@ -610,7 +618,8 @@
     "script_order": [
         "64d760d9-d947-4a51-8938-22960e60d927",
         "c0227206-10ad-4b0a-aaca-6537214b7892",
-        "e702c279-2953-47fa-a60f-383fc7f58980"
+        "e702c279-2953-47fa-a60f-383fc7f58980",
+        "f1e54d28-855c-452e-ad32-a415d2f7a894"
     ],
     "tutorial": ""
 }

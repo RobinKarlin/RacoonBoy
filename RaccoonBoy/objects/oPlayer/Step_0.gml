@@ -28,63 +28,17 @@ if keyboard_check_pressed(ord("R"))
 
 
 //Calculate movement
-var movex = key_right - key_left;
-var movey = key_down - key_up;
+movex = key_right - key_left;
+movey = key_down - key_up;
 hsp = movex * walksp;
 vsp = movey * walksp;
 
 
-
-//Movement deceleration x
-if movex = 0 && movex != old_movex && !place_meeting(x + old_movex * walksp,y,oCollisionBlock)
+//MovementDeceleration
+if movementstart = true
 {
-	decelx -= 0.1;
-	xdir = old_movex
+	script_execute(MovementDecel,0);
 }
-
-old_movex = movex;
-
-if decelx < 1
-{
-	x += walksp * xdir * decelx;
-	decelx -= 0.1;
-	if place_meeting(x + 1,y,oCollisionBlock) || place_meeting(x - 1,y,oCollisionBlock)
-	{
-		decelx = decelmax
-	}
-}
-
-if decelx <= 0
-		{
-		decelx = 1;
-		}
-
-//Movement deceleration y
-
-if movey = 0 && movey != old_movey && !place_meeting(x,y + old_movey * walksp,oCollisionBlock)
-{
-	decely -= 0.1;
-	ydir = old_movey
-}
-
-
-old_movey = movey;
-
-if decely < 1
-{
-	
-	y += walksp * ydir * decely;
-	decely -= 0.1;
-	if place_meeting(x,y + 1,oCollisionBlock) || place_meeting(x,y - 1,oCollisionBlock)
-	{
-		decely = decelmax
-	}
-}
-
-if decely <= 0
-		{
-		decely = decelmax;
-		}
 
 //Collisions
 if (place_meeting(x+hsp,y,oCollisionBlock)) || (place_meeting(x,y+vsp,oCollisionBlock))
