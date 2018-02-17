@@ -15,94 +15,41 @@ key_select_up = keyboard_check(ord(vk_up)) || gamepad_button_check(0, gp_padu);
 key_select_down = keyboard_check(ord(vk_down)) || gamepad_button_check(0, gp_padd);
 
 //Buttons
-key_one = keyboard_check_pressed(vk_space) || gamepad_button_check_pressed(0, gp_face1);
+// keyboard_check_pressed(vk_space) || gamepad_button_check_pressed(0, gp_face1);
 
 
-
-//Restart room
+//Restart position
 if keyboard_check_pressed(ord("R"))
 {
-	room_restart();
+	x = positionsavex;
+	y = positionsavey;
 }
-
 
 
 //Calculate movement
-var movex = key_right - key_left;
-var movey = key_down - key_up;
+movex = key_right - key_left;
+movey = key_down - key_up;
 hsp = movex * walksp;
 vsp = movey * walksp;
-x += hsp;
-y += vsp;
 
 
-//Movement deceleration x
-if movex = 0 && movex != old_movex
+//MovementDeceleration
+script_execute(MovementDecel,0);
+
+//Movementacceleration
+script_execute(MovementAccel,0);
+
+
+//Collisions
+if (place_meeting(x+hsp,y,oCollisionBlock)) || (place_meeting(x,y+vsp,oCollisionBlock))
 {
-	decelx -= 0.1;
-	xdir = old_movex
+script_execute(PlayerCollision,0);
 }
-
-old_movex = movex;
-
-if decelx < 1
-{
-	x += walksp * xdir * decelx;
-	decelx -= 0.09;
-}
-
-if decelx <= 0
-		{
-		decelx = 1;
-		}
-
-//Movement deceleration y
-if movey = 0 && movey != old_movey
-{
-	decely -= 0.1;
-	ydir = old_movey
-}
-
-old_movey = movey;
-
-if decely < 1
-{
-	y += walksp * ydir * decely;
-	decely -= 0.09;
-}
-
-if decely <= 0
-		{
-		decely = 1;
-		}
-
-/*
-//Horizontal collision
-if (place_meeting(x+hsp,y,oWallParent))
-{
-	while (!place_meeting(x+sign(hsp),y,oWallParent))
-	{
-			x = x+sign(hsp);
-	}
-	hsp = 0;
-}	
-x = x + hsp;
-
-//Vertical collision
-if (place_meeting(x,y+vsp,oWallParent))
-{
-	while (!place_meeting(x,y+sign(vsp),oWallParent))
-	{
-			y = y+sign(vsp);
-	}
-	vsp = 0;	
-}	
-y = y + vsp;
-*/
 
 //Call Destroy event
 if hp <= 0
 {
 	instance_destroy();
 }
+
 
