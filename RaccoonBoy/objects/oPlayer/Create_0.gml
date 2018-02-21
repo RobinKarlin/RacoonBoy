@@ -7,6 +7,9 @@
 //Gamepad stuffs
 gamepad_set_axis_deadzone(0, 0.3);
 
+//layer_id
+playerlayerID = layer_get_id("Player");
+
 //old variables
 old_movex = 0;
 old_movey = 0;

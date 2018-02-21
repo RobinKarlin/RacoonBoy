@@ -175,6 +175,22 @@
             }
         },
         {
+            "Key": "3693205d-ecde-45f8-ad76-11bd209910e8",
+            "Value": {
+                "id": "372d8afa-e420-4946-8e37-6744c0de239d",
+                "resourcePath": "views\\3693205d-ecde-45f8-ad76-11bd209910e8.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3b752577-6fd0-43d6-8297-98be685f999f",
+            "Value": {
+                "id": "e99ba153-dd8f-4aca-a5f2-bd0848fe69b7",
+                "resourcePath": "objects\\oInventoryMarker\\oInventoryMarker.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3ddcfc7e-c57c-446c-817c-5b989988752f",
             "Value": {
                 "id": "76cfd2bc-db38-4a17-9b4d-92ea84477e99",
@@ -236,6 +252,14 @@
                 "id": "b1582e6a-1e42-4338-8b07-13728683af4a",
                 "resourcePath": "rooms\\rTemplateroom\\rTemplateroom.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "562cac85-e195-443f-b53b-71db06c2eef7",
+            "Value": {
+                "id": "2d77dd3e-b4ac-48f4-8d19-c88bffd6c9e5",
+                "resourcePath": "objects\\oInventoryBase\\oInventoryBase.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -527,6 +551,14 @@
             }
         },
         {
+            "Key": "ccacbb42-20dd-417a-8da5-a11c6fd4f668",
+            "Value": {
+                "id": "fb991274-169d-4608-a76b-52b9ec586935",
+                "resourcePath": "sprites\\sInventoryBase\\sInventoryBase.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cd2c5497-2c5e-412d-942e-98edb8ce8ae6",
             "Value": {
                 "id": "e2dff058-5fd7-4910-91e6-2dbb7b7ca58b",
@@ -563,6 +595,14 @@
             "Value": {
                 "id": "b74aaba7-2c86-483c-8b5f-8f76d2745f5c",
                 "resourcePath": "objects\\oCollisionTest\\oCollisionTest.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "df5392ac-c3e3-4347-b37d-9b34da6889a1",
+            "Value": {
+                "id": "c0a32dd4-5a34-4e3d-89f2-2f53917c12ce",
+                "resourcePath": "objects\\oInventoryParent\\oInventoryParent.yy",
                 "resourceType": "GMObject"
             }
         },
