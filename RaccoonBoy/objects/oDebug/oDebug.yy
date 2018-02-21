@@ -2,7 +2,7 @@
     "id": "eb3527c4-12cf-4c98-8152-9531ce2d5cca",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oFps",
+    "name": "oDebug",
     "eventList": [
         {
             "id": "f562f346-42d6-49e7-93d6-b938ff8c75c7",
