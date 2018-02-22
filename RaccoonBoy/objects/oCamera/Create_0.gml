@@ -1,4 +1,4 @@
-// Center camera to player when changing room
+/* Center camera to player when changing room
 x = oPlayer.x
 y = oPlayer.y
 PortHeight = 1080

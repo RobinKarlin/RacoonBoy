@@ -319,6 +319,14 @@
             }
         },
         {
+            "Key": "74e5c654-8620-4a81-8763-a59d56af54d5",
+            "Value": {
+                "id": "7f5e6e71-d909-4d16-bbc5-c953e20ae3f4",
+                "resourcePath": "sprites\\sTextBox\\sTextBox.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "74faa4ca-93c9-495a-b648-0c814090625a",
             "Value": {
                 "id": "a14cecf5-6c61-4f02-a445-06a008821ab0",
@@ -391,6 +399,14 @@
             }
         },
         {
+            "Key": "8c5a2d0f-1b5a-4b60-9f05-0662bb3c9f5f",
+            "Value": {
+                "id": "0953e6a7-d680-499d-ad8d-97b3b15d60ff",
+                "resourcePath": "sprites\\sFriend\\sFriend.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8d9a9eb5-076b-4c7a-a8ff-81e9f4e8001d",
             "Value": {
                 "id": "3ec436dd-9af5-4c36-81f8-6bcb310e65d7",
@@ -407,11 +423,27 @@
             }
         },
         {
+            "Key": "8fddf8eb-a81f-478b-ad7e-d792b2ec95ef",
+            "Value": {
+                "id": "318a9ed5-66d4-4179-9b8f-792fe0a942f7",
+                "resourcePath": "views\\8fddf8eb-a81f-478b-ad7e-d792b2ec95ef.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "901f8577-02fb-4c6d-b3cb-bac3327274ad",
             "Value": {
                 "id": "fa14a922-561e-4afb-9d30-80f639e0bf73",
                 "resourcePath": "sprites\\sRuin\\sRuin.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9153eaa8-39c1-410b-921a-7d1415e1685d",
+            "Value": {
+                "id": "7c299d58-34c8-4f2e-8276-ba8be7018d5c",
+                "resourcePath": "fonts\\fInGame\\fInGame.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -535,6 +567,14 @@
             }
         },
         {
+            "Key": "cbbeb85a-2bec-475e-9e81-8409fd368707",
+            "Value": {
+                "id": "ec203a1e-af66-4fbe-a0da-dfc5e3db8bea",
+                "resourcePath": "objects\\oTextBox\\oTextBox.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cc92a94f-3483-48db-b986-3751d92ba9fb",
             "Value": {
                 "id": "00479c61-007d-4046-ac13-8eae0ca23f82",
@@ -635,6 +675,14 @@
             "Value": {
                 "id": "d733d5f4-a3dc-47ef-a3d8-f57034216f9c",
                 "resourcePath": "objects\\oDebug\\oDebug.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ef00d5ba-d25f-43a7-bf50-e601a0ac39d3",
+            "Value": {
+                "id": "95b98423-ab6e-406a-8fbf-921c9b7eb62d",
+                "resourcePath": "objects\\oFriend\\oFriend.yy",
                 "resourceType": "GMObject"
             }
         },
