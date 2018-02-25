@@ -23,6 +23,6 @@ if !layer_exists("inventorylayer1")
 //Creating inventoryinstances
 if layer_exists(global.inventorylayerID)
 {
-	instance_create_layer(camera_get_view_x(view_camera[0]) + (camera_get_view_width(view_camera[0]) / 2), camera_get_view_y(view_camera[0]) + (camera_get_view_height(view_camera[0]) / 2), global.inventorylayerID, oInventoryBase);
+	instance_create_layer(camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0]) + (camera_get_view_height(view_camera[0]) / 2 + 128), global.inventorylayerID, oInventoryBase);
 	//instance_create_layer(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2 , camera_get_view_y(view_camera[0]) + (camera_get_view_height(view_camera[0]) / 2), global.inventorylayerID, oInventoryBase);
 }
