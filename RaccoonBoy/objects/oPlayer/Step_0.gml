@@ -23,7 +23,7 @@ if key_button1 = true
 {
 	if !instance_exists(oInventoryParent)
 	{
-		instance_create_layer(x,y, playerlayerID, oInventoryParent);
+		instance_create_layer(oPlayer.x,oPlayer.y, playerlayerID, oInventoryParent);
 	}
 	else
 	{
