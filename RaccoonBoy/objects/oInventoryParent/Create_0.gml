@@ -1,6 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
+//Inventoryvariables
+inventoryrow = 3;
+inventorycolumn = 4;
+
 //Creating new layers for inventory to make sure it overlaps all other layers.
 //Inventorylayer
 if !layer_exists("inventorylayer")
@@ -23,7 +28,19 @@ if !layer_exists("inventorylayer1")
 //Creating inventoryinstances
 if layer_exists(global.inventorylayerID)
 {
-	instance_create_layer(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2 - (camera_get_view_width(view_camera[0]) /10) , camera_get_view_y(view_camera[0]) + (camera_get_view_height(view_camera[0]) / 2), global.inventorylayerID, oInventoryBase);
+	instance_create_layer(0, 0, global.inventorylayerID, oInventoryBase);
 }
 
-
+//Creating inventoryitems
+localvar = 0;
+createrow = 1;
+for (createrow = 1; createrow < inventoryrow; createrow ++)
+{
+	for (localvar = 0; localvar < inventorycolumn; localvar ++;)
+	{
+	     with(instance_create_layer(oInventoryBase.x, oInventoryBase.y + 1, global.inventorylayerID1, oInventoryItems))
+			{
+				inventoryid = (oInventoryParent.localvar + (oInventoryParent.createrow * 10));
+			}
+	}
+}

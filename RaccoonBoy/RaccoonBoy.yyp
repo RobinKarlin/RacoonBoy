@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "3c6af7ee-601e-4eb5-94ce-498d8783a30b",
+            "Value": {
+                "id": "f60b62fd-7d46-47fb-9552-86da31d33ba5",
+                "resourcePath": "sprites\\sInventoryItems\\sInventoryItems.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3ddcfc7e-c57c-446c-817c-5b989988752f",
             "Value": {
                 "id": "76cfd2bc-db38-4a17-9b4d-92ea84477e99",
@@ -498,7 +506,7 @@
             "Key": "b4b81d28-fca0-4b1d-b773-2589f8df0475",
             "Value": {
                 "id": "580c4cab-77cc-4bd4-b161-bf29458b7ef1",
-                "resourcePath": "objects\\oInventoryContent\\oInventoryContent.yy",
+                "resourcePath": "objects\\oInventoryItems\\oInventoryItems.yy",
                 "resourceType": "GMObject"
             }
         },
