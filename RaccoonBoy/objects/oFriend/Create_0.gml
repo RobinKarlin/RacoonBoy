@@ -1,0 +1,1 @@
+MyTextBox = 0

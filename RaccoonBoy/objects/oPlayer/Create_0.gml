@@ -2,13 +2,11 @@
 // You can write your code in this editor
 
 //Depth -20 makes player end up on top of all other sprites
-//depth = -10
+depth = -100
 
 //Gamepad stuffs
 gamepad_set_axis_deadzone(0, 0.3);
 
-//layer_id
-playerlayerID = layer_get_id("Player");
 
 //old variables
 old_movex = 0;
@@ -60,4 +58,5 @@ timer = room_speed / 60;
 
 //Decides if movementscripts can be played
 movementstart = false;
+
 
