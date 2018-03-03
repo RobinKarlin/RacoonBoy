@@ -1,34 +1,34 @@
 {
-    "id": "b0248abe-e295-4232-b079-21077e3274c7",
+    "id": "b4b81d28-fca0-4b1d-b773-2589f8df0475",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oCameraStatic",
+    "name": "oInventoryItems",
     "eventList": [
         {
-            "id": "20bcace4-aa12-4561-9c8e-a527385f105e",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "b0248abe-e295-4232-b079-21077e3274c7"
-        },
-        {
-            "id": "a644d60e-25f8-4745-99ec-b989a64ceecf",
+            "id": "1ad34beb-684e-4356-9744-c483618bbb79",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "b0248abe-e295-4232-b079-21077e3274c7"
+            "m_owner": "b4b81d28-fca0-4b1d-b773-2589f8df0475"
+        },
+        {
+            "id": "ef9d72b1-0b9e-42f6-b1ed-9a381f3312c7",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "b4b81d28-fca0-4b1d-b773-2589f8df0475"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
-    "persistent": false,
+    "parentObjectId": "df5392ac-c3e3-4347-b37d-9b34da6889a1",
+    "persistent": true,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,
@@ -43,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "3c6af7ee-601e-4eb5-94ce-498d8783a30b",
     "visible": true
 }
