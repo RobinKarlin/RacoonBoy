@@ -16,7 +16,12 @@
         "c14174f5-e7c3-4e13-ac71-0dc6a6f8f66b",
         "ef60ddeb-4685-4588-8f35-669b76e929ed",
         "9d882940-f5ef-4ce5-b8c9-edac3801136b",
+<<<<<<< HEAD
         "8c5a2d0f-1b5a-4b60-9f05-0662bb3c9f5f"
+=======
+        "ccacbb42-20dd-417a-8da5-a11c6fd4f668",
+        "3c6af7ee-601e-4eb5-94ce-498d8783a30b"
+>>>>>>> megtest
     ],
     "filterType": "GMSprite",
     "folderName": "PlaceHolders",

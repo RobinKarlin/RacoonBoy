@@ -8,7 +8,7 @@
         "a0d032d6-7d44-40d1-8d9d-8ac6749b988d"
     ],
     "filterType": "GMObject",
-    "folderName": "Global objects",
+    "folderName": "Global Objects",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

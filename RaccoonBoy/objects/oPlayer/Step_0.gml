@@ -16,10 +16,26 @@ key_select_down = keyboard_check(ord(vk_down)) || gamepad_button_check(0, gp_pad
 
 //Buttons
 // keyboard_check_pressed(vk_space) || gamepad_button_check_pressed(0, gp_face1);
+<<<<<<< HEAD
 key_use = keyboard_check_pressed(ord("E"))  // >>> place gamepad button here <<<
 
 if keyboard_check_pressed(vk_escape) {
 	game_end()
+=======
+key_button1 = keyboard_check_pressed(ord("I"));
+
+//Inventory
+if key_button1 = true
+{
+	if !instance_exists(oInventoryParent)
+	{
+		instance_create_layer(oPlayer.x,oPlayer.y, playerlayerID, oInventoryParent);
+	}
+	else
+	{
+		instance_destroy(oInventoryParent)
+	}
+>>>>>>> megtest
 }
 
 //Restart position
