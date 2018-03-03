@@ -215,14 +215,6 @@
             }
         },
         {
-            "Key": "44976118-7359-46fa-845a-925339a7fc01",
-            "Value": {
-                "id": "e7aa6c6f-f2d7-41d4-9823-2b44c040d327",
-                "resourcePath": "sprites\\sPlayerAcc\\sPlayerAcc.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "458996c4-78fd-4c8c-b4ec-f2e8e26eb7da",
             "Value": {
                 "id": "1a660bc5-1641-4fd4-a9b4-20badc09c375",
@@ -259,14 +251,6 @@
             "Value": {
                 "id": "357d7052-b55e-434d-b128-c297823fa17c",
                 "resourcePath": "sprites\\sRoomSwitch\\sRoomSwitch.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "5ba8a691-2eff-4f56-a99d-679b03436eeb",
-            "Value": {
-                "id": "ed0f427a-6af9-4646-ad38-61d0e66ce2d3",
-                "resourcePath": "sprites\\sPlayer\\sPlayer.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -356,6 +340,14 @@
                 "id": "579e7af8-23b0-4893-ad09-fd5d4eec1a40",
                 "resourcePath": "views\\9af64606-ada0-44c3-960d-dcfdbad9cddd-room.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "787a2643-c5f2-4c7d-8048-352a63804d4e",
+            "Value": {
+                "id": "ba231db4-b7da-4b23-8914-e9fb19121fc8",
+                "resourcePath": "sprites\\sPlayerAcc\\sPlayerAcc.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -564,6 +556,14 @@
                 "id": "2c3cea5f-1987-4631-abc7-7cbb1aed5d2e",
                 "resourcePath": "views\\7cdf4ff1-3e69-4824-8af1-4c03fa393065-room.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c6da337f-fd09-4ac6-864a-e30ed8fbcedd",
+            "Value": {
+                "id": "720a8fa7-4cdb-4ec0-b89b-a743e3fdf49e",
+                "resourcePath": "sprites\\sPlayer\\sPlayer.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

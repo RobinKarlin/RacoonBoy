@@ -15,10 +15,9 @@ else
 
 //Modellvändare
 if (hsp != 0)
-{ 
+{
 	image_xscale = sign(hsp);
 }
-
 
 //Debug för variabler
 /*
