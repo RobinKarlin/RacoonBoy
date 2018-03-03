@@ -1,6 +1,4 @@
-if (place_meeting(x,y,oPlayer)) && (keyboard_check_pressed(ord("E"))) {
-	//Create the textbox in the "Text" layer
-	MyTextBox = instance_create_layer(x-200,y-150,"Text", oTextBox)
-	//What you want this charachter to say
-	MyTextBox.Text = "Lo' dude! Goin' out huntin'?"	
+if collision_circle(x, y, 75, oPlayer, false, true) && oPlayer.key_use = true {
+	TextBoxScript("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",3,x-250,y-250)
 } 
+

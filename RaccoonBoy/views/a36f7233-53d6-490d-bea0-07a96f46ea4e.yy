@@ -4,7 +4,7 @@
     "mvc": "1.1",
     "name": "a36f7233-53d6-490d-bea0-07a96f46ea4e",
     "children": [
-        "33bb626a-24ba-4924-8ae0-c0ed14b7b34e"
+        "af8e00bf-563f-424c-8b07-f715fa0e0078"
     ],
     "filterType": "GMObject",
     "folderName": "Cameras",

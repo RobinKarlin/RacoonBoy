@@ -1,6 +1,5 @@
-Text = 0
-
-BoxWidth = sprite_get_width(sTextBox)
-StringHeight = string_height(Text)
-
-DestroyTimer = 150
+Alpha = 0
+Print = ""
+Time = 0
+Depth = depth - instance_number(oTextBox)
+DestroyTimer = 250

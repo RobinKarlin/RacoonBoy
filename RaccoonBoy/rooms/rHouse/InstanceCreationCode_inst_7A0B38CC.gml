@@ -1,3 +1,1 @@
-TargetX = 3500
-TargetY = 2240
-TargetRoom = rTestrum
+RoomSwitchTarget(5396,707,rTestrum)

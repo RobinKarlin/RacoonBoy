@@ -1,13 +1,13 @@
 
 {
-    "name": "rStartMenu",
+    "name": "rCreateCam",
     "id": "75c6c3a7-0618-4c6a-97f5-ec3ebe2df7bb",
     "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-        "79547aea-c4fd-4d1f-a0ba-9c1101cf4838"
+        "e808774b-0495-4c0f-aefa-167e56c089c3"
     ],
     "IsDnD": false,
     "layers": [
@@ -25,7 +25,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_1651BA1D","id": "79547aea-c4fd-4d1f-a0ba-9c1101cf4838","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_1651BA1D","objId": "6faceaa5-736a-4294-bc1c-6deab4d5cbbf","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 0,"y": 0}
+{"name": "inst_3D04001D","id": "e808774b-0495-4c0f-aefa-167e56c089c3","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_3D04001D","objId": "af8e00bf-563f-424c-8b07-f715fa0e0078","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 0,"y": 0}
             ],
             "layers": [
 

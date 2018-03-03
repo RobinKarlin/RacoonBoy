@@ -1,6 +1,8 @@
-//Destroy the text window after the timer runs out
+//Destroy the text window after last letter in text is drawn and timer has run out
 
-DestroyTimer--
+if Print >= Text {
+	DestroyTimer--
+}
 
 if DestroyTimer <= 0 {
 	instance_destroy()
