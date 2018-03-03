@@ -11,11 +11,7 @@
         "33b11e4b-045c-45a1-8010-88f209cf4ccb",
         "a36f7233-53d6-490d-bea0-07a96f46ea4e",
         "e38eebbe-4015-4317-aec4-b0b89d9c53aa",
-<<<<<<< HEAD
         "8fddf8eb-a81f-478b-ad7e-d792b2ec95ef"
-=======
-        "3693205d-ecde-45f8-ad76-11bd209910e8"
->>>>>>> megtest
     ],
     "filterType": "GMObject",
     "folderName": "objects",

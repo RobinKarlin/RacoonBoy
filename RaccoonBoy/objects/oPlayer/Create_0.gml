@@ -7,11 +7,6 @@ depth = -100
 //Gamepad stuffs
 gamepad_set_axis_deadzone(0, 0.3);
 
-<<<<<<< HEAD
-=======
-//layer_id
-playerlayerID = layer_get_id("Player");
->>>>>>> megtest
 
 //old variables
 old_movex = 0;
