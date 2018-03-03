@@ -1,17 +1,24 @@
-x=oPlayer.x;
-y=oPlayer.y;
+//Set the port to whatever the display size might be
+view_set_hport(0, display_get_height())
+view_set_wport(0, display_get_width())
 
-Camera = camera_create()
+//Grab the window width/height from the viewport in the set-up room
+global.window_width = view_get_wport(0);
+global.window_height = view_get_hport(0);
 
-var vm = matrix_build_lookat(x,y,-10,x,y,0,0,1,0)
-var pm = matrix_build_projection_ortho(1280,720,1,10000)
+//Set up dimensions for camera view and surface (divide by a higher number to zoom in further)
+global.game_width = global.window_width / 2;
+global.game_height = global.window_height / 2;
 
-camera_set_view_mat(Camera,vm)
-camera_set_proj_mat(Camera,pm)
+//Initialise the camera with nothing
+FullscreenCamera = noone
 
-view_camera[0] = Camera
+//Create the surface
+surf = surface_create(global.game_width, global.game_height);
 
-CameraFollowPlayer = oPlayer
-xTo = x
-yTo = y
+//Now go to the main game room: This will skip the first room_start event (in the set-up room)
+room = rMainMenu; 
+
+
+
 

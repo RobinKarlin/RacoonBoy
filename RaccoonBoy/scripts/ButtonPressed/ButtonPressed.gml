@@ -10,8 +10,7 @@ BoxRight = x + HalfTextWidth + (Margin * 2)
 
 draw_set_color(make_color_hsv(0,200,128))
 
-//See if cursor is hover over it
-
+//Check if cursor is hovering over button
 if device_mouse_x_to_gui(0) > BoxLeft and device_mouse_x_to_gui(0) < BoxRight and device_mouse_y_to_gui(0) > BoxTop and device_mouse_y_to_gui(0) < BoxBottom {
 	draw_set_alpha(1)
 	if mouse_check_button_pressed(mb_left) {

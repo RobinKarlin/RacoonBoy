@@ -9,7 +9,7 @@
         "cd2c5497-2c5e-412d-942e-98edb8ce8ae6"
     ],
     "filterType": "GMObject",
-    "folderName": "CollisionBlockers",
+    "folderName": "Collisionblockers",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
